@@ -15,10 +15,11 @@ tidydata <- run_analysis("myfilename.zip")
 
 ###The Output Dataset
 The output dataset is in the narrow form and has 4 columns.
-1. subject. The label of the testers.
-2. activity. The friendly name of the activity taken.
-3. variable. The "features", values from the features.txt file, which originally was what each column in the X_test and X_train files represents. 
-4. mean. The mean of each feature in the original dataset by subject and activity.
+
+1. Subject. The label of the testers.
+2. Activity. The friendly name of the activity taken.
+3. Variable. The "features", values from the features.txt file, which originally was what each column in the X_test and X_train files represents. 
+4. Mean. The mean of each feature in the original dataset by subject and activity.
 
 ###Other Notes
 1. The run_analysis.R file should be saved under the same working directory where the .zip file is saved. And please make sure to run this code before using the function:
